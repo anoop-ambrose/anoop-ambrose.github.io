@@ -20,7 +20,7 @@ body{
     width:100%;
     height:100%;
 
-    z-index:-1;
+    z-index:0;
 
     overflow:hidden;
 }
@@ -79,9 +79,9 @@ body{
 
     pointer-events:none;
 
-    z-index:-1;
+    z-index:1;
 
-    color:rgba(96,165,250,.15);
+    color:rgba(96,165,250,.4);
 
     font-family:Consolas, monospace;
 }
@@ -91,6 +91,13 @@ body{
     position:absolute;
 
     animation:floatText 15s linear infinite;
+
+     font-size:18px;
+
+    font-weight:600;
+
+    text-shadow:
+        0 0 5px rgba(59,130,246,.5);
 }
 .scanner-text span:nth-child(1){
     top:10%;
