@@ -24,6 +24,49 @@ body{
 
     overflow:hidden;
 }
+
+.scanner-bg::before{
+    content:"";
+
+    position:absolute;
+
+    width:100%;
+    height:2px;
+
+    background:rgba(59,130,246,.5);
+
+    box-shadow:
+        0 0 15px #3B82F6,
+        0 0 30px #3B82F6;
+
+    animation:scan 6s linear infinite;
+}
+@keyframes scan{
+
+    0%{
+        top:-10%;
+    }
+
+    100%{
+        top:110%;
+    }
+
+}
+.scanner-bg::after{
+    content:"";
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    background:
+    linear-gradient(rgba(59,130,246,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59,130,246,.05) 1px, transparent 1px);
+
+    background-size:50px 50px;
+}
+
 nav{
     position:fixed;
     top:0;
