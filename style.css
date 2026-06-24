@@ -11,13 +11,20 @@ body{
 nav{
     position:fixed;
     top:0;
+    left:0;
+
     width:100%;
-    padding:20px 8%;
+    box-sizing:border-box;
+
+    padding:20px 50px;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
+
     background:rgba(10,15,28,0.95);
     backdrop-filter:blur(10px);
+
     z-index:1000;
 }
 
