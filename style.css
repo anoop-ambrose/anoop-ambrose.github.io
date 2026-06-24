@@ -86,43 +86,7 @@ body{
     font-family:Consolas, monospace;
 }
 
-.scanner-text span{
 
-    position:absolute;
-
-    animation:floatText 15s linear infinite;
-
-     font-size:18px;
-
-    font-weight:600;
-
-    text-shadow:
-        0 0 5px rgba(59,130,246,.5);
-}
-.scanner-text span:nth-child(1){
-    top:10%;
-    left:5%;
-}
-
-.scanner-text span:nth-child(2){
-    top:30%;
-    right:10%;
-}
-
-.scanner-text span:nth-child(3){
-    top:55%;
-    left:15%;
-}
-
-.scanner-text span:nth-child(4){
-    top:75%;
-    right:15%;
-}
-
-.scanner-text span:nth-child(5){
-    top:85%;
-    left:40%;
-}
 @keyframes floatText{
 
     0%{
