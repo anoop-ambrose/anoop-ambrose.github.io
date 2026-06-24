@@ -1,8 +1,13 @@
 
 body{
     margin:0;
-    background:#0a0f1c;
-    color:white;
+    background:linear-gradient(
+        135deg,
+        #050B18 0%,
+        #081224 40%,
+        #0B1730 100%
+        );
+    color:E5E7EB;
     font-family:Arial, sans-serif;
 }
 
@@ -29,9 +34,9 @@ nav{
 }
 
 .logo{
-    color:#00ff88;
+    color:#3B82F6;
     font-size:1.3rem;
-    font-weight:bold;
+    font-weight:700;
 }
 
 nav ul{
@@ -64,17 +69,15 @@ nav a:hover{
 .hero h1{
     font-size:5rem;
     margin-bottom:10px;
-
     color:white;
 
-    text-shadow:
-        0 0 10px #00ff88,
-        0 0 20px #00ff88,
-        0 0 40px #00ff88;
+     text-shadow:
+        0 0 10px rgba(59,130,246,.4),
+        0 0 20px rgba(59,130,246,.3);
 }
 
 .hero h2{
-    color:#00ff88;
+    color:#3B82F6;
     font-size:1.5rem;
     margin-bottom:20px;
 }
@@ -89,7 +92,7 @@ nav a:hover{
     display:inline-block;
     margin-top:25px;
     padding:12px 25px;
-    background:#00ff88;
+    background:#2563EB;
     color:black;
     text-decoration:none;
     border-radius:8px;
@@ -106,15 +109,15 @@ nav a:hover{
 }
 
 .socials a{
-    color:#00ff88;
+    color:#3B82F6;
     text-decoration:none;
-    border:1px solid #00ff88;
+    border:1px solid #2563EB;
     padding:10px 20px;
     border-radius:6px;
 }
 
 .socials a:hover{
-    background:#00ff88;
+    background:#2563EB;
     color:black;
 }
 .terminal{
@@ -124,7 +127,7 @@ nav a:hover{
 
     background:#111827;
 
-    border:1px solid #00ff88;
+    border:1px solid #2563EB;
 
     border-radius:10px;
 
@@ -140,7 +143,7 @@ nav a:hover{
 
 .terminal-body{
     padding:20px;
-    color:#00ff88;
+    color:#60A5FA;
     font-family:Consolas, monospace;
     text-align:left;
     line-height:1.8;
