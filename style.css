@@ -99,3 +99,21 @@ nav a:hover{
 .btn:hover{
     transform:scale(1.05);
 }
+.socials{
+    margin-top:20px;
+    display:flex;
+    gap:15px;
+}
+
+.socials a{
+    color:#00ff88;
+    text-decoration:none;
+    border:1px solid #00ff88;
+    padding:10px 20px;
+    border-radius:6px;
+}
+
+.socials a:hover{
+    background:#00ff88;
+    color:black;
+}
