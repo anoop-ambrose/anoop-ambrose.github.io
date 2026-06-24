@@ -117,3 +117,31 @@ nav a:hover{
     background:#00ff88;
     color:black;
 }
+.terminal{
+    margin-top:40px;
+    width:600px;
+    max-width:90%;
+
+    background:#111827;
+
+    border:1px solid #00ff88;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:0 0 20px rgba(0,255,136,.2);
+}
+
+.terminal-header{
+    background:#1f2937;
+    padding:12px;
+}
+
+.terminal-body{
+    padding:20px;
+    color:#00ff88;
+    font-family:Consolas, monospace;
+    text-align:left;
+    line-height:1.8;
+}
