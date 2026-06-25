@@ -25,6 +25,10 @@ body{
     overflow:hidden;
 }
 
+.scanner-bg{
+    pointer-events:none;
+}
+
 .scanner-bg::before{
     content:"";
 
@@ -154,6 +158,10 @@ nav a:hover{
     text-align:center;
     padding:80px 20px 20px;
 }
+.hero{
+    position:relative;
+    z-index:100;
+}
 
 .hero h1{
     font-size:5rem;
@@ -190,6 +198,10 @@ nav a:hover{
 
 .btn:hover{
     transform:scale(1.05);
+}
+.socials{
+    position:relative;
+    z-index:100;
 }
 .socials{
     margin-top:20px;
