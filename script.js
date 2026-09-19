@@ -50,12 +50,17 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
 
     const revealElements = document.querySelectorAll(
-        ".section-heading, " +
-        ".focus-card, " +
-        ".featured-project-content, " +
-        ".featured-project-visual, " +
-        ".certification-card, " +
-        ".cta-content"
+    ".section-heading, " +
+    ".about-heading, " +
+    ".about-content, " +
+    ".about-visual, " +
+    ".focus-card, " +
+    ".featured-project-content, " +
+    ".featured-project-visual, " +
+    ".certification-card, " +
+    ".cert-card, " +
+    ".direction-card, " +
+    ".cta-content"
     );
 
     revealElements.forEach(element => {
