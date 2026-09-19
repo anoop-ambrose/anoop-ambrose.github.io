@@ -1727,3 +1727,551 @@ body {
         animation: none;
     }
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Anoop Ambrose | Cybersecurity Professional</title>
+
+    <meta name="description"
+          content="About Anoop Ambrose, a cybersecurity professional focused on SOC operations, SIEM, security monitoring, incident investigation, Linux security and VAPT.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="nav-logo">
+                <span>Anoop</span> Ambrose
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/anoop-ambrose/soc-projects"
+                           class="nav-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            SOC Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="vapt.html" class="nav-link">
+                            VAPT
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="skills.html" class="nav-link">
+                            Skills
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" class="nav-link active">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="resume.pdf" class="nav-resume">
+                            Resume
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ==================== ABOUT HERO ==================== -->
+
+    <main>
+
+        <section class="about-hero">
+            <div class="container">
+
+                <div class="about-heading reveal">
+
+                    <span class="section-eyebrow">
+                        ABOUT ME
+                    </span>
+
+                    <h1>
+                        Cybersecurity professional focused on
+                        <span>SOC Operations &amp; Security Monitoring</span>
+                    </h1>
+
+                    <p>
+                        I build practical security labs and projects to develop
+                        hands-on experience in security monitoring, detection,
+                        incident investigation, Linux security, networking,
+                        and web application security.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== PROFESSIONAL SUMMARY ==================== -->
+
+        <section class="about-summary">
+            <div class="container">
+
+                <div class="about-grid">
+
+                    <div class="about-content reveal">
+
+                        <span class="section-eyebrow">
+                            PROFESSIONAL SUMMARY
+                        </span>
+
+                        <h2>
+                            Building practical security skills
+                            through hands-on environments.
+                        </h2>
+
+                        <p>
+                            I'm Anoop Ambrose, a cybersecurity professional
+                            focused on Security Operations, security monitoring,
+                            and defensive security.
+                        </p>
+
+                        <p>
+                            My hands-on work centers around building and
+                            investigating security events in lab environments
+                            using Wazuh, Linux, networking tools, and
+                            SIEM-based monitoring workflows.
+                        </p>
+
+                        <p>
+                            I've built an Enterprise SOC Lab covering attack
+                            simulation, log analysis, detection, incident
+                            investigation, and MITRE ATT&amp;CK mapping.
+                        </p>
+
+                        <p>
+                            Alongside SOC operations, I have practical
+                            experience with web application security and
+                            penetration testing through PortSwigger labs,
+                            Hack The Box-style exercises, and VAPT-focused
+                            projects.
+                        </p>
+
+                        <div class="about-actions">
+
+                            <a href="resume.pdf" class="btn btn-primary">
+                                View Resume
+                                <span class="btn-arrow">→</span>
+                            </a>
+
+                            <a href="https://github.com/anoop-ambrose/soc-projects"
+                               class="btn btn-secondary"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Explore SOC Lab
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==================== PHOTO ==================== -->
+
+                    <div class="about-visual reveal">
+
+                        <div class="about-photo-frame">
+
+                            <img
+                                src="assets/anoop-profile.png"
+                                alt="Anoop Ambrose - Cybersecurity Professional"
+                            >
+
+                        </div>
+
+                        <div class="about-status-card">
+
+                            <span class="status-dot"></span>
+
+                            <div>
+                                <strong>Current Focus</strong>
+                                <span>SOC Analyst</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== CORE FOCUS ==================== -->
+
+        <section class="about-focus">
+            <div class="container">
+
+                <div class="section-header reveal">
+
+                    <span class="section-eyebrow">
+                        CORE FOCUS
+                    </span>
+
+                    <h2>
+                        Areas I'm actively developing
+                    </h2>
+
+                    <p>
+                        My current learning and project work is centered around
+                        practical security operations and offensive security fundamentals.
+                    </p>
+
+                </div>
+
+
+                <div class="focus-grid">
+
+                    <article class="focus-card reveal">
+
+                        <div class="focus-number">
+                            01
+                        </div>
+
+                        <h3>
+                            SOC Operations
+                        </h3>
+
+                        <p>
+                            Security monitoring, alert analysis, log analysis,
+                            investigation workflows, and security documentation.
+                        </p>
+
+                    </article>
+
+
+                    <article class="focus-card reveal">
+
+                        <div class="focus-number">
+                            02
+                        </div>
+
+                        <h3>
+                            SIEM &amp; Detection
+                        </h3>
+
+                        <p>
+                            Wazuh-based monitoring, detection rules, event
+                            analysis, attack simulation, and MITRE ATT&amp;CK mapping.
+                        </p>
+
+                    </article>
+
+
+                    <article class="focus-card reveal">
+
+                        <div class="focus-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Incident Investigation
+                        </h3>
+
+                        <p>
+                            Following security events from initial detection
+                            through investigation, evidence analysis, and documentation.
+                        </p>
+
+                    </article>
+
+
+                    <article class="focus-card reveal">
+
+                        <div class="focus-number">
+                            04
+                        </div>
+
+                        <h3>
+                            VAPT &amp; Web Security
+                        </h3>
+
+                        <p>
+                            Web application testing, reconnaissance,
+                            vulnerability identification, validation,
+                            and security reporting.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== TECHNICAL TOOLKIT ==================== -->
+
+        <section class="about-toolkit">
+            <div class="container">
+
+                <div class="section-header reveal">
+
+                    <span class="section-eyebrow">
+                        TECHNICAL TOOLKIT
+                    </span>
+
+                    <h2>
+                        Technologies &amp; tools
+                    </h2>
+
+                </div>
+
+
+                <div class="toolkit-grid reveal">
+
+                    <div class="tool-group">
+
+                        <h3>
+                            SOC &amp; Monitoring
+                        </h3>
+
+                        <div class="tool-tags">
+                            <span>Wazuh</span>
+                            <span>SIEM</span>
+                            <span>Log Analysis</span>
+                            <span>MITRE ATT&amp;CK</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tool-group">
+
+                        <h3>
+                            Security Testing
+                        </h3>
+
+                        <div class="tool-tags">
+                            <span>Burp Suite</span>
+                            <span>Nmap</span>
+                            <span>Gobuster</span>
+                            <span>Hydra</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tool-group">
+
+                        <h3>
+                            Systems &amp; Networking
+                        </h3>
+
+                        <div class="tool-tags">
+                            <span>Linux</span>
+                            <span>Ubuntu</span>
+                            <span>Kali Linux</span>
+                            <span>Windows</span>
+                            <span>Wireshark</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tool-group">
+
+                        <h3>
+                            Development &amp; Automation
+                        </h3>
+
+                        <div class="tool-tags">
+                            <span>Python</span>
+                            <span>Bash</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== CERTIFICATIONS ==================== -->
+
+        <section class="about-certifications">
+            <div class="container">
+
+                <div class="section-header reveal">
+
+                    <span class="section-eyebrow">
+                        CREDENTIALS
+                    </span>
+
+                    <h2>
+                        Certifications &amp; learning
+                    </h2>
+
+                </div>
+
+
+                <div class="cert-grid">
+
+                    <article class="cert-card reveal">
+
+                        <div class="cert-badge">
+                            CPT
+                        </div>
+
+                        <div>
+                            <h3>
+                                CPT v3
+                            </h3>
+
+                            <p>
+                                Certified Penetration Testing certification
+                                supporting practical penetration testing and
+                                offensive security knowledge.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="cert-card reveal">
+
+                        <div class="cert-badge">
+                            Cisco
+                        </div>
+
+                        <div>
+                            <h3>
+                                Cisco Cybersecurity
+                            </h3>
+
+                            <p>
+                                Cisco Networking Academy cybersecurity
+                                coursework covering foundational cybersecurity
+                                and junior analyst concepts.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== CURRENT DIRECTION ==================== -->
+
+        <section class="about-direction">
+            <div class="container">
+
+                <div class="direction-card reveal">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            CURRENT DIRECTION
+                        </span>
+
+                        <h2>
+                            Focused on becoming a strong SOC Analyst.
+                        </h2>
+
+                        <p>
+                            I'm currently developing deeper skills in alert
+                            triage, security monitoring, detection engineering,
+                            incident investigation, threat analysis, and
+                            professional security documentation.
+                        </p>
+
+                    </div>
+
+                    <a href="https://github.com/anoop-ambrose/soc-projects"
+                       class="btn btn-light"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View SOC Lab
+                        <span class="btn-arrow">→</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <strong>
+                    Anoop Ambrose
+                </strong>
+
+                <p>
+                    Entry-Level SOC Analyst
+                </p>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="https://github.com/anoop-ambrose"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/anoop-ambrose"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:your-email@example.com">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
