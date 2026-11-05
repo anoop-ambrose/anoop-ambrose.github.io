@@ -1,718 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Anoop Ambrose | SOC Analyst | CPT-Certified</title>
-
-    <meta
-        name="description"
-        content="Anoop Ambrose is an entry-level SOC Analyst and CPT-certified cybersecurity practitioner focused on SIEM, security monitoring, incident investigation, Linux security and VAPT."
-    >
-
-    <meta name="author" content="Anoop Ambrose">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- =========================
-         PAGE WRAPPER
-    ========================== -->
-    <div class="site-wrapper">
-
-        <!-- =========================
-             NAVIGATION
-        ========================== -->
-        <header class="site-header">
-            <div class="container navbar">
-
-                <a href="index.html" class="brand">
-                    <span class="brand-mark">AA</span>
-                    <span class="brand-name">ANOOP AMBROSE</span>
-                </a>
-
-                <div class="nav-links">
-                   <a href="https://github.com/anoop-ambrose/soc-projects"
-           class="nav-link"
-           target="_blank"
-           rel="noopener noreferrer">
-            SOC Projects
-        </a>
-                    <a href="vapt.html" class="nav-link">VAPT</a>
-                    <a href="skills.html" class="nav-link">Skills</a>
-                    <a href="about.html" class="nav-link">About</a>
-                </div>
-
-                <div class="nav-actions">
-                    <a href="resume.pdf" class="nav-link target="_blank">
-                        Resume
-                    </a>
-
-                    <button
-                        class="menu-toggle"
-                        id="menuToggle"
-                        aria-label="Open navigation menu"
-                        aria-expanded="false"
-                    >
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-
-            </nav>
-
-            <!-- Mobile navigation -->
-            <div class="mobile-menu" id="mobileMenu">
-                <a href="index.html">Home</a>
-                <a href="projects.html">SOC Projects</a>
-                <a href="vapt.html">VAPT</a>
-                <a href="skills.html">Skills</a>
-                <a href="about.html">About</a>
-                <a href="resume.pdf" target="_blank">Resume</a>
-            </div>
-        </header>
-
-
-        <!-- =========================
-             HERO SECTION
-        ========================== -->
-        <main>
-
-            <section class="hero-section" id="home">
-
-                <div class="hero-container container">
-
-                    <!-- LEFT CONTENT -->
-                    <div class="hero-content">
-
-                        <div class="hero-status">
-                            <span class="status-dot"></span>
-                            Open to Cybersecurity Opportunities
-                        </div>
-
-                        <p class="hero-label">
-                            CYBERSECURITY • SOC • SECURITY OPERATIONS
-                        </p>
-
-                        <h1 class="hero-title">
-                            Anoop
-                            <span>Ambrose</span>
-                        </h1>
-
-                        <h2 class="hero-role">
-                            Entry-Level SOC Analyst
-                        </h2>
-
-                        <p class="hero-description">
-                            Cybersecurity practitioner focused on
-                            <strong>SIEM, security monitoring, detection,
-                            incident investigation</strong> and Linux security,
-                            with additional hands-on experience in
-                            <strong>VAPT and web application security.</strong>
-                        </p>
-
-                        <div class="hero-highlights">
-
-                            <span class="highlight-tag">
-                                SOC Operations
-                            </span>
-
-                            <span class="highlight-tag">
-                                Wazuh
-                            </span>
-
-                            <span class="highlight-tag">
-                                Incident Investigation
-                            </span>
-
-                            <span class="highlight-tag">
-                                VAPT
-                            </span>
-
-                        </div>
-
-                        <div class="hero-actions">
-
-                            <a href="projects.html" class="btn btn-primary">
-                                Explore My Work
-                                <span class="btn-arrow">→</span>
-                            </a>
-
-                            <a href="about.html" class="btn btn-secondary">
-                                View More
-                            </a>
-
-                        </div>
-
-                        <!-- Professional credentials -->
-                        <div class="hero-credentials">
-
-                            <div class="credential">
-
-                                <span class="credential-value">
-                                    CPT
-                                </span>
-
-                                <span class="credential-label">
-                                    Certified Penetration Tester
-                                </span>
-
-                            </div>
-
-                            <div class="credential-divider"></div>
-
-                            <div class="credential">
-
-                                <span class="credential-value">
-                                    SIEM
-                                </span>
-
-                                <span class="credential-label">
-                                    Wazuh Security Monitoring
-                                </span>
-
-                            </div>
-
-                            <div class="credential-divider"></div>
-
-                            <div class="credential">
-
-                                <span class="credential-value">
-                                    VAPT
-                                </span>
-
-                                <span class="credential-label">
-                                    Web & Network Security
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- RIGHT IMAGE -->
-                    <div class="hero-visual">
-
-                        <div class="image-background-shape"></div>
-
-                        <div class="profile-frame">
-
-                            <img
-                                src="assets/web-profile.png"
-                                alt="Anoop Ambrose - Cybersecurity Analyst"
-                                class="profile-image"
-                            >
-
-                            <div class="profile-overlay"></div>
-
-                        </div>
-
-                        <!-- Floating information cards -->
-
-                        <div class="floating-card card-top">
-
-                            <div class="floating-icon">
-                                ✓
-                            </div>
-
-                            <div>
-                                <strong>CPT Certified</strong>
-                                <span>Penetration Testing</span>
-                            </div>
-
-                        </div>
-
-
-                        <div class="floating-card card-bottom">
-
-                            <div class="floating-icon blue">
-                                ◉
-                            </div>
-
-                            <div>
-                                <strong>SOC Focus</strong>
-                                <span>Monitoring & Investigation</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Scroll indicator -->
-                <a href="#overview" class="scroll-indicator">
-
-                    <span class="scroll-text">
-                        Scroll to explore
-                    </span>
-
-                    <span class="scroll-line"></span>
-
-                    <span class="scroll-arrow">
-                        ↓
-                    </span>
-
-                </a>
-
-            </section>
-
-
-            <!-- =========================
-                 QUICK OVERVIEW
-            ========================== -->
-            <section class="overview-section" id="overview">
-
-                <div class="container">
-
-                    <div class="section-heading">
-
-                        <p class="section-eyebrow">
-                            WHAT I WORK ON
-                        </p>
-
-                        <h2>
-                            Security from detection
-                            <span>to investigation.</span>
-                        </h2>
-
-                        <p>
-                            My current focus is building practical
-                            security operations experience while maintaining
-                            strong foundations in offensive security and
-                            vulnerability assessment.
-                        </p>
-
-                    </div>
-
-
-                    <div class="focus-grid">
-
-                        <!-- SOC -->
-                        <article class="focus-card featured">
-
-                            <div class="focus-number">
-                                01
-                            </div>
-
-                            <div class="focus-icon">
-                                ◉
-                            </div>
-
-                            <h3>
-                                SOC & Security Operations
-                            </h3>
-
-                            <p>
-                                Security monitoring, SIEM analysis,
-                                alert triage, incident investigation,
-                                Linux security and MITRE ATT&CK mapping.
-                            </p>
-
-                            <a href="projects.html" class="card-link">
-                                View SOC Projects →
-                            </a>
-
-                        </article>
-
-
-                        <!-- VAPT -->
-                        <article class="focus-card">
-
-                            <div class="focus-number">
-                                02
-                            </div>
-
-                            <div class="focus-icon">
-                                ◇
-                            </div>
-
-                            <h3>
-                                VAPT & Web Security
-                            </h3>
-
-                            <p>
-                                Vulnerability assessment, web application
-                                testing, Burp Suite, enumeration,
-                                authentication testing and security reporting.
-                            </p>
-
-                            <a href="vapt.html" class="card-link">
-                                View VAPT Work →
-                            </a>
-
-                        </article>
-
-
-                        <!-- LINUX -->
-                        <article class="focus-card">
-
-                            <div class="focus-number">
-                                03
-                            </div>
-
-                            <div class="focus-icon">
-                                ⌘
-                            </div>
-
-                            <h3>
-                                Linux & Network Security
-                            </h3>
-
-                            <p>
-                                Linux administration, firewall configuration,
-                                network analysis, reconnaissance and
-                                security-focused lab environments.
-                            </p>
-
-                            <a href="skills.html" class="card-link">
-                                View Skills →
-                            </a>
-
-                        </article>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!-- =========================
-                 FEATURED SOC PROJECT
-            ========================== -->
-            <section class="featured-project-section">
-
-                <div class="container">
-
-                    <div class="featured-project">
-
-                        <div class="featured-project-content">
-
-                            <p class="section-eyebrow">
-                                FEATURED PROJECT
-                            </p>
-
-                            <h2>
-                                Enterprise SOC Lab
-                            </h2>
-
-                            <p class="project-subtitle">
-                                Wazuh SIEM • Linux • Detection Engineering
-                            </p>
-
-                            <p class="project-description">
-                                A hands-on security operations laboratory
-                                built to simulate attack activity, generate
-                                security telemetry, investigate alerts and
-                                map findings to the MITRE ATT&CK framework.
-                            </p>
-
-                            <div class="project-tags">
-
-                                <span>Wazuh</span>
-                                <span>Linux</span>
-                                <span>SIEM</span>
-                                <span>MITRE ATT&CK</span>
-                                <span>Incident Investigation</span>
-
-                            </div>
-
-                            <a href="projects.html" class="btn btn-light">
-                                Explore SOC Lab →
-                            </a>
-
-                        </div>
-
-
-                        <div class="featured-project-visual">
-
-                            <div class="soc-panel">
-
-                                <div class="soc-panel-header">
-
-                                    <span class="panel-dot"></span>
-
-                                    <span>
-                                        SECURITY OPERATIONS
-                                    </span>
-
-                                    <span class="panel-status">
-                                        ACTIVE
-                                    </span>
-
-                                </div>
-
-
-                                <div class="soc-flow">
-
-                                    <div class="soc-node">
-                                        <strong>ATTACK</strong>
-                                        <span>Kali Linux</span>
-                                    </div>
-
-                                    <div class="flow-arrow">
-                                        →
-                                    </div>
-
-                                    <div class="soc-node">
-                                        <strong>TELEMETRY</strong>
-                                        <span>Linux Endpoint</span>
-                                    </div>
-
-                                    <div class="flow-arrow">
-                                        →
-                                    </div>
-
-                                    <div class="soc-node active">
-                                        <strong>SIEM</strong>
-                                        <span>Wazuh</span>
-                                    </div>
-
-                                    <div class="flow-arrow">
-                                        →
-                                    </div>
-
-                                    <div class="soc-node">
-                                        <strong>INVESTIGATE</strong>
-                                        <span>Analyst</span>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="soc-metrics">
-
-                                    <div>
-                                        <strong>20+</strong>
-                                        <span>Detection Rules</span>
-                                    </div>
-
-                                    <div>
-                                        <strong>6</strong>
-                                        <span>Attack Scenarios</span>
-                                    </div>
-
-                                    <div>
-                                        <strong>7</strong>
-                                        <span>Investigation Docs</span>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!-- =========================
-                 CERTIFICATION
-            ========================== -->
-            <section class="certification-section">
-
-                <div class="container">
-
-                    <div class="certification-card">
-
-                        <div class="certification-badge">
-                            CPT
-                        </div>
-
-                        <div class="certification-content">
-
-                            <p class="section-eyebrow">
-                                PROFESSIONAL CREDENTIAL
-                            </p>
-
-                            <h2>
-                                Certified Penetration Tester
-                            </h2>
-
-                            <p>
-                                A practical penetration-testing credential
-                                supporting my broader cybersecurity skill set
-                                and VAPT specialization.
-                            </p>
-
-                        </div>
-
-                        <a href="about.html#certifications" class="certification-link">
-                            View Certifications →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!-- =========================
-                 CONTACT CTA
-            ========================== -->
-            <section class="cta-section">
-
-                <div class="container">
-
-                    <div class="cta-content">
-
-                        <p class="section-eyebrow">
-                            LET'S CONNECT
-                        </p>
-
-                        <h2>
-                            Building a career in
-                            <span>security operations.</span>
-                        </h2>
-
-                        <p>
-                            I'm currently focused on opportunities in
-                            SOC, cybersecurity operations and related
-                            security roles.
-                        </p>
-
-                        <div class="cta-actions">
-
-                            <a
-                                href="mailto:your-email@example.com"
-                                class="btn btn-primary"
-                            >
-                                Get in Touch
-                            </a>
-
-                            <a
-                                href="https://github.com/anoop-ambrose"
-                                class="btn btn-secondary"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-
-                            <a
-                                href="https://www.linkedin.com/in/anoop-ambrose"
-                                class="btn btn-secondary"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                LinkedIn
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-        </main>
-
-
-        <!-- =========================
-             FOOTER
-        ========================== -->
-        <footer class="site-footer">
-
-            <div class="container footer-inner">
-
-                <div class="footer-brand">
-
-                    <a href="index.html" class="brand">
-                        <span class="brand-mark">AA</span>
-                        <span class="brand-name">ANOOP AMBROSE</span>
-                    </a>
-
-                    <p>
-                        SOC Analyst • CPT-Certified • Cybersecurity
-                    </p>
-
-                </div>
-
-
-                <div class="footer-links">
-
-                    <a href="projects.html">
-                        SOC Projects
-                    </a>
-
-                    <a href="vapt.html">
-                        VAPT
-                    </a>
-
-                    <a href="skills.html">
-                        Skills
-                    </a>
-
-                    <a href="about.html">
-                        About
-                    </a>
-
-                    <a
-                        href="https://github.com/anoop-ambrose"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
-                    </a>
-
-                    <a
-                        href="https://www.linkedin.com/in/anoop-ambrose"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LinkedIn
-                    </a>
-
-                </div>
-
-
-                <div class="footer-bottom">
-
-                    <span>
-                        © 2026 Anoop Ambrose
-                    </span>
-
-                    <span>
-                        Security Portfolio
-                    </span>
-
-                </div>
-
-            </div>
-
-        </footer>
-
-    </div>
-
-
-    <!-- =========================
-         JAVASCRIPT
-    ========================== -->
-    <script src="script.js"></script>
-
-</body>
-</html>
-```
+AA.ANOOP AMBROSE 
+AboutExpertiseProjectsToolkitCredentials Let's connect ↗
+CYBERSECURITY • SECURITY OPERATIONS • VAPT
+
+OFFENSIVE THINKING. DEFENSIVE EXECUTION.
+
+Anoop
+Ambrose_
+Cybersecurity Practitioner / SOC Analyst in Progress
+I bring a penetration-testing mindset to security operations — learning how attacks work, how telemetry exposes them, and how analysts investigate and respond.
+
+SOC OperationsSIEM & DetectionIncident InvestigationPenetration Testing
+Explore my work ↘Get to know me →
+Building hands-on security labsKERALA, INDIA
+IDENTITY / 001● ACTIVE
+AA
+ANOOP AMBROSECybersecurity • SOC • VAPT
+THINK LIKE AN ATTACKERDEFEND WITH EVIDENCE
+⌁RED TEAMUnderstand the threat
+◉BLUE TEAMDetect & investigate
+09° / 76° SECURITY MINDSET
+SCROLL TO EXPLORE
+01 / THE APPROACH
+One security discipline is stronger when it understands the other.
+
+AA.
+01ABOUT ME
+THE PERSON BEHIND THE TERMINAL
+
+Curious about the attack.
+Committed to the defence.
+I'm Anoop Ambrose, a cybersecurity practitioner with a foundation in penetration testing and vulnerability assessment, now directing my focus toward Security Operations Centre (SOC) work.
+
+My interests span security monitoring, SIEM workflows, alert triage, Linux and Windows telemetry, incident investigation, web application security and clear technical reporting. I value practical evidence over unsupported claims — build a lab, reproduce an activity, inspect the logs and document what happened.
+
+CPTCertified Penetration Tester
+RED + BLUEOffensive and defensive perspective
+HANDS-ONLearning through practical labs
+02 / AREAS OF FOCUS
+
+Two perspectives.
+One security objective.
+My technical development connects the adversary's techniques with the defender's visibility, investigation and response.
+
+01 / OFFENSIVE↗
+⌘
+Penetration Testing
+& VAPT
+Assessing attack surfaces, validating weaknesses and understanding how vulnerabilities can be exploited in authorised environments.
+
+Reconnaissance & enumeration
+Web application testing
+Burp Suite & Nmap
+Findings and remediation reporting
+RED
+02 / DEFENSIVE◎
+⌁
+SOC Operations
+& Detection
+Turning endpoint and network activity into useful security context through monitoring, triage and structured investigation.
+
+SIEM & log analysis
+Alert triage and prioritisation
+Incident investigation
+MITRE ATT&CK mapping
+BLUE
+03 / SELECTED WORK
+
+Build. Simulate.
+Detect. Investigate.
+Practical environments are where offensive knowledge becomes defensive capability. Here is the lab I'm actively developing.
+
+FEATURED LAB / 001 IN DEVELOPMENT
+SIEM • ENDPOINT TELEMETRY • ATTACK SIMULATION
+
+Multi-endpoint
+Splunk SOC Lab
+A home SOC environment designed to explore the full workflow: generate controlled security activity, collect endpoint telemetry, investigate events in Splunk and document findings from both attacker and defender perspectives.
+
+SplunkUbuntuWindows 11Kali LinuxVirtualBox
+Explore SOC project repository ↗
+LAB TOPOLOGYENV / HOME SOC
+⌘
+OCTOPUSKali Linux / Test host
+RED
+CONTROLLED TEST ACTIVITY
+▣
+CITADELUbuntu endpoint
+▣
+BEACONWindows 11 endpoint
+COLLECTED TELEMETRY
+◉
+SENTINELUbuntu / Splunk server
+BLUE
+ENDPOINTS CONNECTEDVIRTUAL LAB
+i
+Project integrity: This is a personal lab, not a production SOC. The architecture reflects the environment and setup progress described in the project documentation; detections, results and response metrics will be added as they are validated.
+
+02 / WEB SECURITY
+Web Application Security
+Practice focused on identifying, validating and documenting common web application weaknesses in authorised learning environments.
+
+BURP SUITE • OWASP
+03 / NETWORK SECURITY
+Network Reconnaissance
+Building familiarity with service discovery, enumeration, network visibility and the security implications of exposed services.
+
+NMAP • WIRESHARK
+04 / WORKFLOW
+
+From activity
+to actionable insight.
+A repeatable approach keeps security work measurable, explainable and useful to the people responsible for reducing risk.
+
+01SIMULATE
+Generate controlled activity in an authorised lab.
+
+02COLLECT
+Capture endpoint and system telemetry.
+
+03INVESTIGATE
+Correlate events, timelines and indicators.
+
+04DOCUMENT
+Record evidence, impact and recommendations.
+
+05TECHNICAL TOOLKIT
+TOOLS I WORK WITH AND CONTINUE TO DEVELOP
+
+Technology is the tool.
+Investigation is the skill.
+SOC & Monitoring
+SplunkSIEM conceptsLog analysisMITRE ATT&CK
+Offensive Security
+Burp SuiteNmapGobusterHydra
+Systems & Network
+LinuxUbuntuKali LinuxWindowsWireshark
+Scripting & Workflow
+PythonBashGitGitHub
+06 / CREDENTIALS & DEVELOPMENT
+
+Learning with
+purpose and practice.
+Credentials support the foundation. Continuous lab work, investigation and documentation build the capability.
+
+CPT
+CERTIFICATION
+Certified Penetration Tester
+CPT credential listed in my existing portfolio.
+
+↗
+C
+COURSEWORK
+Cisco Cybersecurity
+Cybersecurity learning through Cisco Networking Academy coursework.
+
+↗
+07 / CONTACT
+
+Let's talk security.
+Interested in cybersecurity, SOC operations, practical labs or collaboration? Find me through the links below.
+
+Connect on LinkedIn ↗GitHub profile ↗
+For project details and technical work, explore my GitHub repositories.
+AA.ANOOP AMBROSE© ANOOP AMBROSE · BUILT WITH CURIOSITYBACK TO TOP ↑
