@@ -308,7 +308,7 @@ img {
 }
 .hero-visual {
   position: relative;
-  min-height: 510px;
+  min-height: 600px;
   display: grid;
   place-items: center;
 }
@@ -340,7 +340,7 @@ img {
 .profile-card {
   position: relative;
   z-index: 2;
-  width: min(310px, 76%);
+  width: min(380px, 90%);
   padding: 13px;
   background: linear-gradient(
     145deg,
@@ -363,7 +363,7 @@ img {
   color: var(--green);
 }
 .profile-image-wrap {
-  height: 320px;
+  height: 420px;
   position: relative;
   overflow: hidden;
   background: linear-gradient(145deg, #243d5b, #101a2a);
@@ -1380,4 +1380,17 @@ img {
     opacity: 1;
     transform: none;
   }
+}
+@media (max-width: 700px) {
+    .profile-card {
+        width: min(320px, 90%);
+    }
+
+    .profile-image-wrap {
+        height: 350px;
+    }
+
+    .hero-visual {
+        min-height: 470px;
+    }
 }
